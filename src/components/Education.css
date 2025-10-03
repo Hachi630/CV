@@ -1,0 +1,90 @@
+.education-item {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.degree {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.date {
+  background: #3b82f6;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.university {
+  font-size: 16px;
+  color: #64748b;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.relevant-courses h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 10px;
+}
+
+.relevant-courses ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.relevant-courses li {
+  background: #f1f5f9;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #475569;
+  border-left: 3px solid #3b82f6;
+}
+
+.relevant-courses li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .education-item {
+    padding: 20px;
+  }
+  
+  .education-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .degree {
+    font-size: 18px;
+  }
+  
+  .date {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+  
+  .relevant-courses li {
+    font-size: 13px;
+  }
+}
